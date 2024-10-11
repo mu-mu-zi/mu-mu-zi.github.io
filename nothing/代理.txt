@@ -1,0 +1,27 @@
+    npm config delete proxy
+    npm config delete https-proxy
+
+git config --global http.proxy http://127.0.0.1:7890
+git config --global https.proxy http://127.0.0.1:7890
+
+set https_proxy=http://127.0.0.1:7890
+set http_proxy=http://127.0.0.1:7890
+
+git config --global --unset http.proxy
+git config --global --unset https.proxy
+
+git config --global user.name "lubin" 
+git config user.email lubin.z@gmail.com 
+
+git config --global http.sslVerify "false"
+
+echo "# zkperp-frontend" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/xxxx.git
+git push -u origin main
+
+tn0415356@163.com----Aw223322【依次是：id账号--密码。对应关键字密保：朋友—aaa111 ，工作—aab112 ，父母—aac113。生日：1990-01-01。请务必修改密保：appleid.apple.com ，id邮箱也可以改。切勿登陆iCloud】
+
