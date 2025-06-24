@@ -1,24 +1,15 @@
-import { useEffect, useState } from 'react'
-
-import './App.css'
+import Root from './router';
+import Header from './Components/Header';
 
 function App() {
-  const [count, setCount] = useState<number>(0)
-  useEffect(() => {
-    setTimeout(() => {
-      const preCount = count + 1
-      setCount(preCount)
 
-    }, 1000)
-
-
-  }, [count])
 
   return (
-    <>
-      <div className='text-[56px] text-[pink]'>钟权 { count }</div>
-    </>
-  )
+    <div>
+      <Header />
+      <Root />
+    </div>
+  );
 }
 
-export default App
+export default App;
