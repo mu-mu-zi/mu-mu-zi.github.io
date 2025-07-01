@@ -1,0 +1,38 @@
+:root {
+  /* 浅色主题 */
+  --bg1: #fff;
+  --bg2: #fff;
+  --bg3: #efefef;
+  --text1: #232429;
+  --text2: #4d4f54;
+  --text3: #7f8087;
+  --divider: #e8e8e8;
+  --primary: #c70036;
+  --primary2: #c70035d2;
+  --primaryHover: #e70843;
+}
+
+:root[class~='dark'] {
+  --bg1: #16161a;
+  --bg2: #232429;
+  --bg3: #2e2f34;
+  --text1: #fafafa;
+  --text2: #c0c1c4;
+  --text3: #92949c;
+  --divider: #34353a;
+  --primary: #c70036;
+  --primary2: #c70035d2;
+  --primaryHover: #e70843;
+}
+@theme inline {
+  --color-bg1: var(--bg1);
+  --color-bg2: var(--bg2);
+  --color-bg3: var(--bg3);
+  --color-text1: var(--text1);
+  --color-text2: var(--text2);
+  --color-text3: var(--text3);
+  --divider: var(--divider);
+  --color-primary: var(--primary);
+  --color-primary2: var(--primary2);
+  --color-primaryHover: var(--primaryHover);
+}
